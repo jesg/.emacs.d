@@ -1,5 +1,6 @@
 (provide 'init-evil)
 
+(require 'evil)
 (global-evil-surround-mode 1)
 (evil-mode 1)
 

@@ -16,7 +16,7 @@
 (setq inhibit-startup-message t)
 (setq fill-column 85)
 (setq initial-major-mode 'emacs-lisp-mode)
-(setq browse-url-generic-program "google-chrome")
+(setq browse-url-generic-program "firefox")
 (setq initial-scratch-message nil)
 
 (setq uniquify-buffer-name-style 'post-forward

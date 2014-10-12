@@ -15,7 +15,7 @@
 
 (cd "~")
 
-(require 'cask "~/.cask/cask.el")
+(require 'cask)
 (cask-initialize)
 
 (setq mac-option-key-is-meta nil)

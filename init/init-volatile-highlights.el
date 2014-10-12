@@ -8,6 +8,3 @@
 
 (volatile-highlights-mode t)
 
-(with-theme-colors
- (set-face-attribute 'vhl/default-face nil
-                     :background dark3))

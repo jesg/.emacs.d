@@ -1,30 +1,5 @@
 (provide 'init-term)
 
-(with-theme-colors
- (defface term-color-black
-   `((t (:foreground ,dark1 :background ,dark3)))
-   "Unhelpful docstring.")
- (defface term-color-red
-   `((t (:foreground ,red :background ,dark3)))
-   "Unhelpful docstring.")
- (defface term-color-green
-   `((t (:foreground ,darkgreen :background ,dark3)))
-   "Unhelpful docstring.")
- (defface term-color-yellow
-   `((t (:foreground ,yellow :background ,dark3)))
-   "Unhelpful docstring.")
- (defface term-color-blue
-   `((t (:foreground ,blue :background ,dark3)))
-   "Unhelpful docstring.")
- (defface term-color-magenta
-   `((t (:foreground ,purple :background ,dark3)))
-   "Unhelpful docstring.")
- (defface term-color-cyan
-   `((t (:foreground ,lightgreen :background ,dark3)))
-   "Unhelpful docstring.")
- (defface term-color-white
-   `((t (:foreground ,light4 :background ,dark3)))
-   "Unhelpful docstring."))
 '(term-default-fg-color ((t (:inherit term-color-white))))
 '(term-default-bg-color ((t (:inherit term-color-black))))
 
@@ -55,8 +30,3 @@
       (term-char-mode)
     (term-line-mode)))
 
-;; (define-key term-mode-map (kbd "C-c C-j") 'jnm/term-toggle-mode)
-;; (define-key term-mode-map (kbd "C-c C-k") 'jnm/term-toggle-mode)
-
-;; (define-key term-raw-map (kbd "C-c C-j") 'jnm/term-toggle-mode)
-;; (define-key term-raw-map (kbd "C-c C-k") 'jnm/term-toggle-mode)

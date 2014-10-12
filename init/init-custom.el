@@ -26,17 +26,10 @@
  ;; If there is more than one, they won't work right.
  '(company-backends
    (quote
-    (company-bbdb company-nxml company-css company-eclim company-semantic company-clang company-xcode company-ropemacs company-cmake company-capf
+    (company-bbdb company-nxml company-css company-eclim company-semantic company-clang company-ropemacs company-cmake company-capf
                   (company-dabbrev-code company-keywords)
                   company-oddmuse company-files company-dabbrev)))
  '(enh-ruby-bounce-deep-indent t)
  '(enh-ruby-use-ruby-mode-show-parens-config t)
- '(js2-auto-indent-p t)
- '(js2-basic-offset 2)
- '(js2-boring-indentation nil)
- '(js2-consistent-level-indent-inner-bracket t)
- '(js2-mode-show-parse-errors t)
- '(js2-mode-show-strict-warnings t)
- '(ruby-refactor-add-parens t)
  '(ruby-refactor-let-position (quote closest))
- '(scss-compile-at-save nil))
+ )

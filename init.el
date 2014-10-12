@@ -14,26 +14,20 @@
                  init-projectile
                  init-git
                  init-expand-region
-                 init-web
                  init-parens
                  init-modeline
                  init-markdown
-                 init-js
                  init-flycheck
                  init-ruby
                  init-multiple-cursors
-                 init-games
                  init-volatile-highlights
                  init-erc
                  init-snippets
-                 init-sass
                  init-anzu
-                 init-clojure
                  init-dired
                  init-term
                  init-prodigy
                  init-peepopen
-                 init-java
                  init-shell
 
                  init-keymaps

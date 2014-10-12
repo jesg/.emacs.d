@@ -37,9 +37,9 @@
                                list match menu move-to-prompt netsplit networks
                                noncommands readonly ring stamp spelling track))
 
-  (setq erc-nick "mbriggs")
+  (setq erc-nick "jesg")
   (setq erc-prompt ">")
-  (setq erc-user-full-name "Matt Briggs")
+  (setq erc-user-full-name "Jason Gowan")
 
   ;; auto identify
   (require 'erc-services)
