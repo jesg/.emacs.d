@@ -29,6 +29,7 @@
                  init-prodigy
                  init-peepopen
                  init-shell
+                 init-cucumber
 
                  init-keymaps
                  init-settings))

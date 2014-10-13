@@ -59,3 +59,4 @@
 (depends-on "yaml-mode")
 (depends-on "smartparens" :git "http://github.com/Fuco1/smartparens.git")
 (depends-on "solarized-theme")
+(depends-on "feature-mode")
