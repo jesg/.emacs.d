@@ -2,5 +2,5 @@
 
 
 
-(global-set-key (kbd "<M-up>") 'er/expand-region)
-(global-set-key (kbd "<M-down>") 'er/contract-region)
+(global-set-key (kbd "<M-->") 'er/expand-region)
+(global-set-key (kbd "<M-_>") 'er/contract-region)
