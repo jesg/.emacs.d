@@ -44,7 +44,6 @@
       recentf-exclude '("/tmp/" "/ssh:"))
 
 
-
 (defun save-all ()
   (interactive)
   (save-some-buffers t))

@@ -32,6 +32,8 @@
 (global-set-key (kbd "C-p") 'switch-to-local-project)
 (global-set-key (kbd "C-S-P") 'prodigy)
 (global-set-key (kbd "M-`") 'other-frame)
+(global-set-key (kbd "M-+") 'text-scale-increase)
+(global-set-key (kbd "M-=") 'text-scale-decrease)
 
 ;;; normal
 (define-key evil-normal-state-map " m" 'evil-jump-item)

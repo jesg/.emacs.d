@@ -1,6 +1,6 @@
 (provide 'init-git)
 
-(setq magit-emacsclient-executable "/usr/local/bin/emacsclient")
+;;(setq magit-emacsclient-executable "/usr/local/bin/emacsclient")
 (add-hook 'git-commit-mode-hook 'insert-ticket-number-from-branch-name)
 
 (defun insert-ticket-number-from-branch-name ()
