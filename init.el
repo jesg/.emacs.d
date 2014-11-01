@@ -30,6 +30,7 @@
                  init-peepopen
                  init-shell
                  init-cucumber
+                 init-lua
 
                  init-keymaps
                  init-settings))
