@@ -21,7 +21,6 @@
                  init-ruby
                  init-multiple-cursors
                  init-volatile-highlights
-                 init-erc
                  init-snippets
                  init-anzu
                  init-dired
