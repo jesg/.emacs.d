@@ -17,6 +17,7 @@
 (global-set-key (kbd "M-W") 'only-current-buffer)
 (global-set-key (kbd "M-q") 'save-buffers-kill-emacs)
 (global-set-key (kbd "<f8>") 'magit-blame-mode)
+(global-set-key (kbd "<f7>") 'multi-term-dedicated-toggle)
 (global-set-key (kbd "M-.") 'etags-select-find-tag)
 (global-set-key (kbd "M-o") 'occur)
 (global-set-key (kbd "<f3>") 'flycheck-list-errors)
