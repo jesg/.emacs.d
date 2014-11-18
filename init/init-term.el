@@ -20,6 +20,8 @@
      (define-key term-raw-map (kbd "C-S-P") 'prodigy)
      (evil-define-key 'insert term-raw-map (kbd "M-v") 'term-paste)))
 
+(setq multi-term-program "/bin/bash")
+
 (add-hook 'term-mode-hook (lambda()
                 (yas-minor-mode -1)))
 
@@ -29,4 +31,3 @@
   (if (term-in-line-mode)
       (term-char-mode)
     (term-line-mode)))
-
