@@ -41,7 +41,6 @@
 (depends-on "multiple-cursors")
 (depends-on "markdown-mode")
 (depends-on "projectile")
-(depends-on "prodigy")
 (depends-on "rbenv")
 (depends-on "bundler")
 (depends-on "rspec-mode")

@@ -25,7 +25,6 @@
                  init-anzu
                  init-dired
                  init-term
-                 init-prodigy
                  init-peepopen
                  init-shell
                  init-cucumber
