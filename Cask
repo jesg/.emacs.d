@@ -60,3 +60,4 @@
 (depends-on "solarized-theme")
 (depends-on "feature-mode")
 (depends-on "lua-mode")
+(depends-on "ag")
