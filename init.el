@@ -30,6 +30,7 @@
                  init-cucumber
                  init-lua
                  init-mustache
+                 init-prolog
 
                  init-keymaps
                  init-settings))
