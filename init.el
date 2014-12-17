@@ -29,6 +29,7 @@
                  init-shell
                  init-cucumber
                  init-lua
+                 init-mustache
 
                  init-keymaps
                  init-settings))

@@ -61,3 +61,4 @@
 (depends-on "feature-mode")
 (depends-on "lua-mode")
 (depends-on "ag")
+(depends-on "mustache-mode")
